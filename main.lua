@@ -20,6 +20,8 @@ io.close(file )
 
 file = nil
 
+print ((data[24].x) - nil);
+
 for i in pairs(data) do
 print ("record".." "..i.." x="..data[i].x.." y="..data[i].y.." class="..data[i].class)
 end
